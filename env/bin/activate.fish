@@ -29,7 +29,15 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
+<<<<<<< HEAD
 set -gx VIRTUAL_ENV "/Users/mac/Documents/EduNg/env"
+=======
+<<<<<<< HEAD
+set -gx VIRTUAL_ENV "/Users/mac/Documents/EduNg/env"
+=======
+set -gx VIRTUAL_ENV "/home/vagrant/EduNg/env"
+>>>>>>> 317297fa97e5aeecc71956ccab05e21b51907db5
+>>>>>>> b0faae64a20b13696089cda49f217c07c1535c4f
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

@@ -190,6 +190,7 @@ class RegForm(FlaskForm):
                                "placeholder": "Phone Number"})
     selectcourse = SelectField(validators=[InputRequired()], choices=[('select choice', 'Select Choice'), ('language', 'Language'), ('communication', 'Communication'), ('business', 'Business'), ('software', 'Software'), ('social media', 'Social Media'), ('photography', 'Photography'), (
         'web designing', 'Web Designing'), ('web technology', 'Web Technology'), ('pc systems', 'PC Systems'), ('it foundations', 'IT Foundations'), ('hr management', 'HR Management'), ('modeling', 'Modeling'), ('basic marketing', 'Basic Marketing')], render_kw={"placeholder": "Select Course"})
+
     selectcoursetime = SelectField(validators=[InputRequired()], choices=[('select time', 'Select Time'), ('hours: 8am - 10am', 'Hours: 8am - 10am'), ('hours: 10am - 12pm', 'Hours: 10am - 12pm'),
                                    ('hours: 12pm - 4pm', 'Hours: 12pm - 4pm'), ('hours: 4pm - 7pm', 'Hours: 4pm - 7pm'), ('hours: 7pm - 9pm', 'Hours: 7pm - 9pm')], render_kw={"placeholder": "Select Course Time"})
     address = StringField(validators=[InputRequired(), Length(
