@@ -8,7 +8,11 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
+<<<<<<< HEAD
 setenv VIRTUAL_ENV "/Users/mac/Documents/EduNg/env"
+=======
+setenv VIRTUAL_ENV "/home/vagrant/EduNg/env"
+>>>>>>> 317297fa97e5aeecc71956ccab05e21b51907db5
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"

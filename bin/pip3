@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/Users/mac/Documents/EduNg/bin/python3
+=======
+#!/home/vagrant/EduNg/bin/python3
+>>>>>>> 317297fa97e5aeecc71956ccab05e21b51907db5
 # -*- coding: utf-8 -*-
 import re
 import sys

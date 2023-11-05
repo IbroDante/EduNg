@@ -37,7 +37,11 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
+<<<<<<< HEAD
 VIRTUAL_ENV="/Users/mac/Documents/EduNg"
+=======
+VIRTUAL_ENV="/home/vagrant/EduNg"
+>>>>>>> 317297fa97e5aeecc71956ccab05e21b51907db5
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
