@@ -1,11 +1,9 @@
 {% extends 'layout.html' %} {% block head %}
-<title>Osun Recruit | Dashboard</title>
+<title>Osun Recruit | Print Form</title>
 {% endblock %} {% block body %}
 <body>
   <div class="container mt-5">
-    <h1 class="text-center">Welcome, {{ user.username }}!</h1>
     <h2 class="text-center">Your Form Submissions</h2>
-    {{ get_flashed_messages() }}
     <div class="table-responsive">
       <table class="table table-bordered">
         <thead>
@@ -39,21 +37,6 @@
             <td>{{ user_form.phonenumber }}</td>
             <td>{{ user_form.institution }}</td>
             <td>{{ user_form.qualification }}</td>
-            <td>
-              <a
-                href="{{ url_for('print_form', form_id=user_form.id) }}"
-                target="_blank"
-                class="btn btn-primary btn-sm"
-                >Print Form</a
-              >
-
-              <button
-                class="btn btn-danger btn-sm"
-                onclick="deleteForm('{{ user_form.id }}')"
-              >
-                Delete
-              </button>
-            </td>
           </tr>
           {% endfor %}
         </tbody>
